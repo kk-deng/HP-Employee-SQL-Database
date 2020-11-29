@@ -37,3 +37,11 @@ https://app.quickdatabasediagrams.com/#/d/jn0Mzf
 ## Misc
 
 The birth date and hire date (MM-DD-YYYY) in ``employees`` CSV are not following the Postgres date format (YYYY-MM-DD), which renders the error when importing the csv into database. Thus ``VARCHAR(10)`` was used in the ERD for both dates. An ``Alter Table`` function was used to change them to SQL date datatype.
+
+* CSV Import Order:
+1. departments
+2. titles
+3. employees
+4. dept_emp
+5. dept_manager
+6. salaries
