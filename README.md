@@ -1,4 +1,4 @@
-# SQL-Challenge
+# HP Employee SQL Database and Analysis
 # Employee Database: A Mystery in Two Parts
 
 ## Background
